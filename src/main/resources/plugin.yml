@@ -1,0 +1,14 @@
+name: HostHelper
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  hostinfo:
+    description: Shows server and hosting information.
+    usage: /hostinfo
+  tps:
+    description: Shows the server TPS and memory usage.
+    usage: /tps
+  ping:
+    description: Shows your ping to the server.
+    usage: /ping
